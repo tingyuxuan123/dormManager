@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@43.138.60.141:1521:helowin
+    username: yfdl
+    password: q13812833598
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
